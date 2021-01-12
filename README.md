@@ -29,4 +29,4 @@ This project uses Python 3 and is designed to be completed through the Jupyter N
 * Seaborn                                      
 
 ## Results
-You can find detailed steps and results at my medium blog post link
+You can find detailed steps and results at my medium blog post link https://omarmohyeldin.medium.com/predict-customer-churn-using-pyspark-aa9d1a46f642
