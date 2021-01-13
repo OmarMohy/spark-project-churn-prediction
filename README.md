@@ -5,6 +5,7 @@ Udacity Data Science Capstone Project
 ## Table of contents
 * [Dataset](#dataset)
 * [Context](#context)
+* [Files](#files)
 * [Setup](#setup)
 * [Results](#results)
 
@@ -19,6 +20,11 @@ This data contains the key insights for keeping the users happy and helping the 
 
 The target is to predict which users are at risk to churn either downgrading from premium to free tier or cancelling their service altogether. If you can accurately identify these users before they leave the business can offer them discounts and incentives potentially saving the business millions in revenue.
 
+## Files
+*mini_sparkify_event_data.json*: The 125 MB data file
+*Sparkify.ipynb*: The code steps
+
+
 ## Setup
 This project uses Python 3 and is designed to be completed through the Jupyter Notebooks IDE. It is highly recommended that you use the Anaconda distribution to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are expected to be used in this project:
 
@@ -29,4 +35,5 @@ This project uses Python 3 and is designed to be completed through the Jupyter N
 * Seaborn                                      
 
 ## Results
+Random Forrest Classifier were used to predict churn users and got a 76% F1-Score and 57% AUC score.
 You can find detailed steps and results at my medium blog post link https://omarmohyeldin.medium.com/predict-customer-churn-using-pyspark-aa9d1a46f642
